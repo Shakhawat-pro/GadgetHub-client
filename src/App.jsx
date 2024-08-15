@@ -1,12 +1,12 @@
 import './App.css'
-import Filter from './Components/Filter'
+import Sidebar from './Components/Sidebar'
 import Footer from './Components/Footer'
 
 function App() {
 
   return (
-    <div className='max-w-screen-xl mx-auto px-3'>
-      <Filter></Filter>
+    <div className=' mx-auto '>
+      <Sidebar></Sidebar>
     </div>
   )
 }
