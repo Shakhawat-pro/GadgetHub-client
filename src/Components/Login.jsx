@@ -1,15 +1,37 @@
 import Lottie from 'lottie-react';
 import welcome from '../assets/welcome.json'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import logoImg from '../assets/GH.png'
 import Social from './Social';
+import { useContext } from 'react';
+import { authContext } from '../Context/AuthProvider';
+import Swal from 'sweetalert2';
 
 const Login = () => {
+    const { signInUser } = useContext(authContext)
+    const navigate = useNavigate()
     const { register, formState: { errors }, handleSubmit } = useForm()
 
     const onSubmit = (data) => {
         console.log(data)
+        signInUser(data.email, data.password)
+            .then(() => {
+                Swal.fire({
+                    title: "Success!",
+                    text: "You have successfully logged In.",
+                    icon: "success",
+                    timer: 2000
+                }).then(() => { navigate('/') })
+            })
+            .catch(error => {
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    html: `<span style="color: red;">${error.message || 'Something went wrong. Please try again.'}</span>`,
+                  });
+                
+            })
     }
 
     return (

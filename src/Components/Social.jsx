@@ -10,8 +10,7 @@ const Social = () => {
 
     const handleGoogle = () =>{
         signInWithGoogle()
-        .then(result => {
-            console.log(result);
+        .then(() => {
             Swal.fire({
                 title: "Success!",
                 text: "You have successfully logged In.",
