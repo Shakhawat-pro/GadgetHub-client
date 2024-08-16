@@ -2,7 +2,7 @@ import { Rating } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css'
 const Card = ({ product }) => {
     const { name, image, description, price, category, brand, ratings, createdAt } = product
-    console.log(ratings);
+    // console.log(ratings);
     
 
     return (
