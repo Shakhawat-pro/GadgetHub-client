@@ -1,7 +1,7 @@
 [
     {
         "name": "Samsung Galaxy S23",
-        "image": "https://example.com/images/galaxys23.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-5g-1.jpg",
         "description": "Samsung Galaxy S23 with 6.1-inch AMOLED display and Snapdragon 8 Gen 2.",
         "price": 799.99,
         "category": "Smartphones",
@@ -11,7 +11,7 @@
     },
     {
         "name": "Samsung Galaxy Note 20",
-        "image": "https://example.com/images/galaxynote20.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note20-1.jpg",
         "description": "Samsung Galaxy Note 20 with S Pen and 5G capability.",
         "price": 949.99,
         "category": "Smartphones",
@@ -21,7 +21,7 @@
     },
     {
         "name": "Apple iPhone 15",
-        "image": "https://example.com/images/iphone15.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-1.jpg",
         "description": "Apple iPhone 15 with A17 Bionic chip and 6.1-inch display.",
         "price": 999.99,
         "category": "Smartphones",
@@ -31,7 +31,7 @@
     },
     {
         "name": "Apple iPhone 14 Pro",
-        "image": "https://example.com/images/iphone14pro.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
         "description": "Apple iPhone 14 Pro with ProMotion display and triple-camera system.",
         "price": 1099.99,
         "category": "Smartphones",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Sony Xperia 5 IV",
-        "image": "https://example.com/images/xperia5iv.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-5-iv-ecru-white.jpg",
         "description": "Sony Xperia 5 IV with 6.1-inch OLED display and triple camera setup.",
         "price": 999.99,
         "category": "Smartphones",
@@ -51,7 +51,7 @@
     },
     {
         "name": "Sony Xperia 10 IV",
-        "image": "https://example.com/images/xperia10iv.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-10-iv-1.jpg",
         "description": "Sony Xperia 10 IV with 6-inch OLED display and long battery life.",
         "price": 449.99,
         "category": "Smartphones",
@@ -61,7 +61,7 @@
     },
     {
         "name": "OnePlus 11",
-        "image": "https://example.com/images/oneplus11.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-2.jpg",
         "description": "OnePlus 11 with 6.7-inch Fluid AMOLED display and Snapdragon 8 Gen 2.",
         "price": 799.99,
         "category": "Smartphones",
@@ -71,7 +71,7 @@
     },
     {
         "name": "OnePlus Nord N200",
-        "image": "https://example.com/images/nordn200.jpg",
+        "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-n200-5g-1.jpg",
         "description": "OnePlus Nord N200 with 5G connectivity and 6.49-inch display.",
         "price": 299.99,
         "category": "Smartphones",
@@ -81,7 +81,7 @@
     },
     {
         "name": "Apple MacBook Air M2",
-        "image": "https://example.com/images/macbookairm2.jpg",
+        "image": "https://www.thestreet.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkwODg5Mzk3NjExMzQxNDk0/1-apple-macbook-air-m2-review.webp",
         "description": "Apple MacBook Air M2 with 8GB RAM and 256GB SSD.",
         "price": 1199.99,
         "category": "Laptops & Computers",
@@ -91,7 +91,7 @@
     },
     {
         "name": "Apple MacBook Pro 14-inch",
-        "image": "https://example.com/images/macbookpro14.jpg",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/211025072623-macbook-pro-14-display-5.jpg?q=w_4032,h_2268,x_0,y_0,c_fill",
         "description": "Apple MacBook Pro 14-inch with M1 Pro chip and 16GB RAM.",
         "price": 1999.99,
         "category": "Laptops & Computers",
@@ -101,7 +101,7 @@
     },
     {
         "name": "Samsung Galaxy Book3 Pro",
-        "image": "https://example.com/images/galaxybook3pro.jpg",
+        "image": "https://www.zdnet.com/a/img/2023/02/22/22629d4e-fc33-4ecb-aff2-30e0c40fa2d5/samsung-book3-pro-360-7.jpg",
         "description": "Samsung Galaxy Book3 Pro with Intel Core i7 and AMOLED display.",
         "price": 1499.99,
         "category": "Laptops & Computers",
@@ -111,7 +111,7 @@
     },
     {
         "name": "Dell XPS 13",
-        "image": "https://example.com/images/dellxps13.jpg",
+        "image": "https://cdn.mos.cms.futurecdn.net/PZtqJj8yTeTYnw3WMjdomF.jpg",
         "description": "Dell XPS 13 with Intel Core i7, 16GB RAM, and InfinityEdge display.",
         "price": 1399.99,
         "category": "Laptops & Computers",
@@ -121,7 +121,7 @@
     },
     {
         "name": "Sony WH-1000XM5",
-        "image": "https://example.com/images/sonywh1000xm5.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
         "description": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones.",
         "price": 349.99,
         "category": "Headphones & Earphones",
@@ -131,7 +131,7 @@
     },
     {
         "name": "Sony WH-H910N",
-        "image": "https://example.com/images/sonywhh910n.jpg",
+        "image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/08/Sony-WH-H910Na-920x595.jpg",
         "description": "Sony WH-H910N Noise Cancelling Headphones with 30-hour battery life.",
         "price": 229.99,
         "category": "Headphones & Earphones",
@@ -141,7 +141,7 @@
     },
     {
         "name": "Bose QuietComfort Earbuds II",
-        "image": "https://example.com/images/boseqc2.jpg",
+        "image": "https://www.gadgetstyler.com/wp-content/uploads/2023/03/61OjFJ2p1nL._AC_SL1500_.jpg",
         "description": "Bose QuietComfort Earbuds II with active noise cancellation.",
         "price": 299.99,
         "category": "Headphones & Earphones",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Jabra Elite 7 Pro",
-        "image": "https://example.com/images/jabraelite7pro.jpg",
+        "image": "https://www.gadgetstyler.com/wp-content/uploads/2023/03/61OjFJ2p1nL._AC_SL1500_.jpg",
         "description": "Jabra Elite 7 Pro True Wireless Earbuds with advanced noise cancellation.",
         "price": 249.99,
         "category": "Headphones & Earphones",
@@ -161,7 +161,7 @@
     },
     {
         "name": "LG Gram 17",
-        "image": "https://example.com/images/lggram17.jpg",
+        "image": "https://www.notebookcheck.net/uploads/tx_nbc2/4zu3_LG_Gram_17_17Z90R_neu_01.jpg",
         "description": "LG Gram 17 Laptop with Intel Core i7 and 1TB SSD.",
         "price": 1599.99,
         "category": "Laptops & Computers",
@@ -171,7 +171,7 @@
     },
     {
         "name": "HP Spectre x360",
-        "image": "https://example.com/images/hpspectrex360.jpg",
+        "image": "https://www.notebookcheck.net/uploads/tx_nbc2/4zu3_LG_Gram_17_17Z90R_neu_01.jpg",
         "description": "HP Spectre x360 Convertible Laptop with Intel Core i7, 16GB RAM, 512GB SSD.",
         "price": 1399.99,
         "category": "Laptops & Computers",
@@ -181,7 +181,7 @@
     },
     {
         "name": "Acer Swift 3",
-        "image": "https://example.com/images/acerswift3.jpg",
+        "image": "https://mcsolution.com.bd/wp-content/uploads/2022/03/Acer-Swift-3-1200x1452.webp",
         "description": "Acer Swift 3 Laptop with Intel Core i5, 8GB RAM, and 256GB SSD.",
         "price": 699.99,
         "category": "Laptops & Computers",
@@ -191,7 +191,7 @@
     },
     {
         "name": "Asus ZenBook 14",
-        "image": "https://example.com/images/asuszenbook14.jpg",
+        "image": "https://www.notebookcheck.net/uploads/tx_nbc2/4zu3_LG_Gram_17_17Z90R_neu_01.jpg",
         "description": "Asus ZenBook 14 with Intel Core i7, 16GB RAM, and 1TB SSD.",
         "price": 1299.99,
         "category": "Laptops & Computers",
@@ -201,7 +201,7 @@
     },
     {
         "name": "LG OLED C1",
-        "image": "https://example.com/images/lgoledc1.jpg",
+        "image": "https://i.rtings.com/assets/products/1UbkxYvb/lg-c1-oled/design-medium.jpg?format=auto",
         "description": "LG OLED C1 55-inch 4K Smart TV with AI Picture Pro.",
         "price": 1799.99,
         "category": "Televisions",
@@ -211,7 +211,7 @@
     },
     {
         "name": "Samsung QN90B",
-        "image": "https://example.com/images/samsungqn90b.jpg",
+        "image": "https://i.rtings.com/assets/products/mMN3Ggpb/samsung-43-qn90b-qled/design-medium.jpg?format=auto",
         "description": "Samsung QN90B 65-inch Neo QLED 4K Smart TV with Quantum HDR.",
         "price": 2199.99,
         "category": "Televisions",
@@ -221,7 +221,7 @@
     },
     {
         "name": "Sony A80J",
-        "image": "https://example.com/images/sonya80j.jpg",
+        "image": "https://i.rtings.com/assets/products/1UbkxYvb/lg-c1-oled/design-medium.jpg?format=auto",
         "description": "Sony A80J 65-inch OLED 4K Smart TV with Dolby Vision.",
         "price": 2499.99,
         "category": "Televisions",
@@ -231,7 +231,7 @@
     },
     {
         "name": "TCL 6-Series R635",
-        "image": "https://example.com/images/tcl6seriesr635.jpg",
+        "image": "https://i.rtings.com/assets/products/mMN3Ggpb/samsung-43-qn90b-qled/design-medium.jpg?format=auto",
         "description": "TCL 6-Series R635 55-inch QLED 4K Smart TV with Roku OS.",
         "price": 899.99,
         "category": "Televisions",
@@ -241,7 +241,7 @@
     },
     {
         "name": "Bose SoundLink Revolve+",
-        "image": "https://example.com/images/bosesoundlinkrevolve.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2637-61275.jpg",
         "description": "Bose SoundLink Revolve+ Portable Bluetooth Speaker with 360-degree sound.",
         "price": 299.99,
         "category": "Home Entertainment",
@@ -251,7 +251,7 @@
     },
     {
         "name": "Sonos Arc",
-        "image": "https://example.com/images/sonosarc.jpg",
+        "image": "https://cdn.mos.cms.futurecdn.net/FRtBjMTUD7GrNPF4zSjBnR-1200-80.jpg",
         "description": "Sonos Arc Dolby Atmos Soundbar with voice control and smart features.",
         "price": 799.99,
         "category": "Home Entertainment",
@@ -261,7 +261,7 @@
     },
     {
         "name": "LG CineBeam HU80KA",
-        "image": "https://example.com/images/lgcinebeamhu80ka.jpg",
+        "image": "https://www.digitaltrends.com/wp-content/uploads/2018/08/lg-hu80ka-projector-hero.jpg?p=1",
         "description": "LG CineBeam HU80KA 4K UHD Laser Smart Projector.",
         "price": 2299.99,
         "category": "Home Entertainment",
@@ -271,7 +271,7 @@
     },
     {
         "name": "Epson Home Cinema 3800",
-        "image": "https://example.com/images/epsonhomecinema3800.jpg",
+        "image": "https://i.rtings.com/assets/products/TGwlI63z/epson-home-cinema-3800/style-large.jpg?format=auto",
         "description": "Epson Home Cinema 3800 4K PRO-UHD Projector with HDR support.",
         "price": 1299.99,
         "category": "Home Entertainment",
@@ -281,7 +281,7 @@
     },
     {
         "name": "Samsung Odyssey G7",
-        "image": "https://example.com/images/odysseyg7.jpg",
+        "image": "https://cdn.mos.cms.futurecdn.net/ihBLJ2wh3pvnSqpDGPqba3-1200-80.jpg",
         "description": "Samsung Odyssey G7 27-inch Curved Gaming Monitor with 240Hz refresh rate.",
         "price": 699.99,
         "category": "Accessories",
@@ -291,7 +291,7 @@
     },
     {
         "name": "Dell UltraSharp U2720Q",
-        "image": "https://example.com/images/dellultrasharpu2720q.jpg",
+        "image": "https://cdn.mos.cms.futurecdn.net/ihBLJ2wh3pvnSqpDGPqba3-1200-80.jpg",
         "description": "Dell UltraSharp U2720Q 27-inch 4K Monitor with USB-C connectivity.",
         "price": 549.99,
         "category": "Accessories",
@@ -301,7 +301,7 @@
     },
     {
         "name": "BenQ EL2870U",
-        "image": "https://example.com/images/benqel2870u.jpg",
+        "image": "https://i.rtings.com/assets/products/PeafKFgH/benq-el2870u/design-medium.jpg?format=auto",
         "description": "BenQ EL2870U 28-inch 4K Monitor with HDR10 support.",
         "price": 399.99,
         "category": "Accessories",
@@ -311,7 +311,7 @@
     },
     {
         "name": "Apple TV 4K",
-        "image": "https://example.com/images/appletv4k.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Apple-TV-4K---3rd-Gen-Black-a-4489.jpg",
         "description": "Apple TV 4K with A12 Bionic chip and support for Dolby Atmos.",
         "price": 179.99,
         "category": "Home Entertainment",
@@ -321,7 +321,7 @@
     },
     {
         "name": "Google Nest Hub",
-        "image": "https://example.com/images/googlenesthub.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Google-Nest-Hub-2nd-Gen-c-2767.jpg",
         "description": "Google Nest Hub with 7-inch display and voice control.",
         "price": 99.99,
         "category": "Home Automation",
@@ -331,7 +331,7 @@
     },
     {
         "name": "Amazon Echo Dot 4th Gen",
-        "image": "https://example.com/images/amazonechodot.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2534-88537.jpg",
         "description": "Amazon Echo Dot 4th Gen with Alexa and smart home capabilities.",
         "price": 49.99,
         "category": "Home Automation",
@@ -341,7 +341,7 @@
     },
     {
         "name": "Xiaomi Mi TV Stick",
-        "image": "https://example.com/images/xiaomimitvstick.jpg",
+        "image": "https://bn.smartdeal.com.bd/public/uploads/all/5NnNBlhTJmcdgjUj9CfaihY2YMF4gq9h1mjxs4xa.png",
         "description": "Xiaomi Mi TV Stick with 4K streaming support and Google Assistant.",
         "price": 39.99,
         "category": "Home Entertainment",
@@ -351,7 +351,7 @@
     },
     {
         "name": "Eero Pro 6",
-        "image": "https://example.com/images/eeropro6.jpg",
+        "image": "https://www.cnet.com/a/img/resize/29aa7f65e360aa6b9f26a4a62c8a57dad5f36204/hub/2020/11/04/7b4540c0-2fbc-4302-8736-5c8b2c712dbb/img-5814.jpg?auto=webp&fit=crop&height=1200&width=1200",
         "description": "Eero Pro 6 Mesh Wi-Fi System with tri-band technology.",
         "price": 299.99,
         "category": "Home Networking",
@@ -361,7 +361,7 @@
     },
     {
         "name": "Netgear Nighthawk RAX80",
-        "image": "https://example.com/images/netgearnighthawk.jpg",
+        "image": "https://www.highspeedinternet.com/app/uploads/2023/07/nighthawk-rax80-feature-image-1-scaled.jpg",
         "description": "Netgear Nighthawk RAX80 Wi-Fi 6 Router with 8-stream support.",
         "price": 399.99,
         "category": "Home Networking",
@@ -371,7 +371,7 @@
     },
     {
         "name": "TP-Link Deco X60",
-        "image": "https://example.com/images/tplinkdecox60.jpg",
+        "image": "https://www.highspeedinternet.com/app/uploads/2023/07/nighthawk-rax80-feature-image-1-scaled.jpg",
         "description": "TP-Link Deco X60 Mesh Wi-Fi System with AX5400 speed.",
         "price": 349.99,
         "category": "Home Networking",
@@ -381,7 +381,7 @@
     },
     {
         "name": "Apple AirPods Pro",
-        "image": "https://example.com/images/appleairpodspro.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/AirPods-Pro-(2nd-generation)-with-USB%E2%80%90C-charging-4694.jpg",
         "description": "Apple AirPods Pro with Active Noise Cancellation and Transparency mode.",
         "price": 249.99,
         "category": "Accessories",
@@ -391,7 +391,7 @@
     },
     {
         "name": "Sony WH-1000XM4",
-        "image": "https://example.com/images/sonywh1000xm4.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2097-40558.jpg",
         "description": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones.",
         "price": 349.99,
         "category": "Accessories",
@@ -401,7 +401,7 @@
     },
     {
         "name": "Bose QuietComfort 35 II",
-        "image": "https://example.com/images/bosequietcomfort35ii.jpg",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2639-76549.jpg",
         "description": "Bose QuietComfort 35 II Wireless Noise-Canceling Headphones.",
         "price": 299.99,
         "category": "Accessories",
@@ -411,17 +411,17 @@
     },
     {
         "name": "Dell XPS 13",
-        "image": "https://example.com/images/dellxps13.jpg",
+        "image": "https://cdn.mos.cms.futurecdn.net/PZtqJj8yTeTYnw3WMjdomF.jpg",
         "description": "Dell XPS 13 with Intel Core i7, 16GB RAM, and 512GB SSD.",
         "price": 1399.99,
         "category": "Laptops & Computers",
         "brand": "Dell",
-        "ratings": 4.8,
+        "ratings": 2,
         "createdAt": "2024-09-29T21:00:00Z"
     },
     {
         "name": "MacBook Air M2",
-        "image": "https://example.com/images/macbookairm2.jpg",
+        "image": "https://www.thestreet.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkwODg5Mzk3NjExMzQxNDk0/1-apple-macbook-air-m2-review.webp",
         "description": "MacBook Air M2 with Apple M2 chip, 8GB RAM, and 256GB SSD.",
         "price": 1199.99,
         "category": "Laptops & Computers",

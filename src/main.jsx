@@ -9,12 +9,17 @@ import './index.css'
 import Login from './Components/Login.jsx';
 import Register from './Components/Register.jsx';
 import AuthProvider from './Context/AuthProvider.jsx';
+import Products from './Components/Products.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
     children: [
+      {
+        path: '/',
+        element: <Products></Products>
+      },
       {
         path: "login",
         element: <Login></Login>
