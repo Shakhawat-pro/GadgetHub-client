@@ -9,8 +9,8 @@ import { useQuery } from '@tanstack/react-query';
 const Products = () => {
     const { filters, Search } = useContext(FilterContext);
     const [sort, setSort] = useState('');
-    const [currentPage, setCurrentPage] = useState(1);  
-    const [itemsPerPage, setItemsPerPage] = useState(10); 
+    const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPerPage, setItemsPerPage] = useState(10);
 
     const { data = {}, isLoading } = useQuery({
         queryKey: ['products', filters, Search, sort, currentPage, itemsPerPage],
@@ -32,6 +32,11 @@ const Products = () => {
 
     const handlePageChange = (newPage) => {
         setCurrentPage(newPage);
+    };
+
+    const handleItemsPerPageChange = (event) => {
+        setItemsPerPage(parseInt(event.target.value));
+        setCurrentPage(1); 
     };
 
     if (isLoading) {
@@ -63,21 +68,24 @@ const Products = () => {
                 {products.map((product) => <Card key={product._id} product={product}></Card>)}
             </div>
 
-            <div className="flex justify-center space-x-2 mt-8">
-                <button
-                    disabled={currentPage === 1}
-                    onClick={() => handlePageChange(currentPage - 1)}
-                    className="btn btn-outline">
-                    Previous
-                </button>
+            <div className="flex items-center justify-center space-x-2 mt-8">
+                <button disabled={currentPage === 1} onClick={() => handlePageChange(currentPage - 1)} className="btn btn-outline">Previous</button>
+
                 <span>Page {currentPage} of {totalPages}</span>
-                <button
-                    disabled={currentPage === totalPages}
-                    onClick={() => handlePageChange(currentPage + 1)}
-                    className="btn btn-outline">
-                    Next
-                </button>
-                
+
+                <button disabled={currentPage === totalPages} onClick={() => handlePageChange(currentPage + 1)} className="btn btn-outline">Next</button>
+
+                <select
+                    className="select select-bordered border-black"
+                    value={sort}
+                    onChange={handleItemsPerPageChange}
+                >
+                    <option value="" disabled hidden>{itemsPerPage}</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </select>
+
             </div>
         </div>
     );
