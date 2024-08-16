@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Card from "./Card";
+import Lottie from "lottie-react";
+import lol from '../assets/lol.json'
 
 const Products = () => {
     const [products, setProducts] = useState([]); // State to store fetched products
@@ -15,7 +17,7 @@ const Products = () => {
     }, []);
 
     if (loading) {
-        return <p>Loading...</p>; 
+        return <div className="w-80 mx-auto mt-14"><Lottie animationData={lol}></Lottie></div>; 
     }
     return (
         <div className="my-10">
