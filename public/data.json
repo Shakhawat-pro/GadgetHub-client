@@ -204,7 +204,7 @@
         "image": "https://i.rtings.com/assets/products/1UbkxYvb/lg-c1-oled/design-medium.jpg?format=auto",
         "description": "LG OLED C1 55-inch 4K Smart TV with AI Picture Pro.",
         "price": 1799.99,
-        "category": "Televisions",
+        "category": "TV & Monitor",
         "brand": "LG",
         "ratings": 4.9,
         "createdAt": "2024-09-08T16:00:00Z"
@@ -214,7 +214,7 @@
         "image": "https://i.rtings.com/assets/products/mMN3Ggpb/samsung-43-qn90b-qled/design-medium.jpg?format=auto",
         "description": "Samsung QN90B 65-inch Neo QLED 4K Smart TV with Quantum HDR.",
         "price": 2199.99,
-        "category": "Televisions",
+        "category": "TV & Monitor",
         "brand": "Samsung",
         "ratings": 4.8,
         "createdAt": "2024-09-09T17:00:00Z"
@@ -224,7 +224,7 @@
         "image": "https://i.rtings.com/assets/products/1UbkxYvb/lg-c1-oled/design-medium.jpg?format=auto",
         "description": "Sony A80J 65-inch OLED 4K Smart TV with Dolby Vision.",
         "price": 2499.99,
-        "category": "Televisions",
+        "category": "TV & Monitor",
         "brand": "Sony",
         "ratings": 4.9,
         "createdAt": "2024-09-10T18:00:00Z"
@@ -234,7 +234,7 @@
         "image": "https://i.rtings.com/assets/products/mMN3Ggpb/samsung-43-qn90b-qled/design-medium.jpg?format=auto",
         "description": "TCL 6-Series R635 55-inch QLED 4K Smart TV with Roku OS.",
         "price": 899.99,
-        "category": "Televisions",
+        "category": "TV & Monitor",
         "brand": "TCL",
         "ratings": 4.7,
         "createdAt": "2024-09-11T19:00:00Z"
@@ -324,7 +324,7 @@
         "image": "https://adminapi.applegadgetsbd.com/storage/media/large/Google-Nest-Hub-2nd-Gen-c-2767.jpg",
         "description": "Google Nest Hub with 7-inch display and voice control.",
         "price": 99.99,
-        "category": "Home Automation",
+        "category": "Accessories",
         "brand": "Google",
         "ratings": 4.7,
         "createdAt": "2024-09-20T12:00:00Z"
@@ -334,7 +334,7 @@
         "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2534-88537.jpg",
         "description": "Amazon Echo Dot 4th Gen with Alexa and smart home capabilities.",
         "price": 49.99,
-        "category": "Home Automation",
+        "category": "Accessories",
         "brand": "Amazon",
         "ratings": 4.6,
         "createdAt": "2024-09-21T13:00:00Z"

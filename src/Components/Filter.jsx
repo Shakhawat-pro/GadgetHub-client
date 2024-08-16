@@ -3,17 +3,7 @@ import { Scrollbars } from 'rc-scrollbars';
 import { FilterContext } from '../Context/FilterProvider';
 
 const Filter = () => {
-    // Initialize state for filters
     const {filters, setFilters} = useContext(FilterContext)
-    // const [filters, setFilters] = useState({
-    //     brand: '',
-    //     category: '',
-    //     priceMin: '',
-    //     priceMax: ''
-    // });
-    // console.log(filters);
-    
-    
 
     // Handle input changes
     const handleChange = (e) => {
@@ -115,7 +105,7 @@ const Filter = () => {
                                     <input
                                         type="radio"
                                         name="category"
-                                        value="Laptops"
+                                        value="Laptops & Computers"
                                         className="radio max-lg:radio-error"
                                         onChange={handleChange}
                                     />
@@ -123,11 +113,11 @@ const Filter = () => {
                             </li>
                             <li>
                                 <label className="label cursor-pointer">
-                                    <span className="label-text capitalize">Televisions</span>
+                                    <span className="label-text capitalize">TV & Monitor</span>
                                     <input
                                         type="radio"
                                         name="category"
-                                        value="Televisions"
+                                        value="TV & Monitor"
                                         className="radio max-lg:radio-error"
                                         onChange={handleChange}
                                     />
@@ -139,7 +129,7 @@ const Filter = () => {
                                     <input
                                         type="radio"
                                         name="category"
-                                        value="Headphones"
+                                        value="Headphones & Earphones"
                                         className="radio max-lg:radio-error"
                                         onChange={handleChange}
                                     />
@@ -147,11 +137,23 @@ const Filter = () => {
                             </li>
                             <li>
                                 <label className="label cursor-pointer">
-                                    <span className="label-text capitalize">Smartwatches</span>
+                                    <span className="label-text capitalize">Home Entertainment</span>
                                     <input
                                         type="radio"
                                         name="category"
-                                        value="Smartwatches"
+                                        value="Home Entertainment"
+                                        className="radio max-lg:radio-error"
+                                        onChange={handleChange}
+                                    />
+                                </label>
+                            </li>
+                            <li>
+                                <label className="label cursor-pointer">
+                                    <span className="label-text capitalize">Accessories</span>
+                                    <input
+                                        type="radio"
+                                        name="category"
+                                        value="Accessories"
                                         className="radio max-lg:radio-error"
                                         onChange={handleChange}
                                     />

@@ -10,12 +10,14 @@ const FilterProvider = ({children}) => {
         priceMin: '',
         priceMax: ''
     });
+    const [Search, setSearch] = useState('')
 
-    console.log("Filter..../.", filters);
+    // console.log("Filter..../.", filters, Search);
+
     
 
     return (
-        <FilterContext.Provider value={{filters, setFilters}}>
+        <FilterContext.Provider value={{filters, setFilters, Search, setSearch}}>
             {children}
         </FilterContext.Provider>
     );
