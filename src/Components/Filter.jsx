@@ -1,81 +1,108 @@
+import { Scrollbars } from 'rc-scrollbars';
+
 const Filter = () => {
     return (
-        <div className="form-control space-y-4">
-            {/* Brand Name Filter */}
-            <div>
-                <h2 className="text-lg font-semibold">Brand Name</h2>
-                <ul>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Brand A</span>
-                            <input type="radio" name="brand" value="Brand A" className="radio" />
-                        </label>
-                    </li>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Brand B</span>
-                            <input type="radio" name="brand" value="Brand B" className="radio" />
-                        </label>
-                    </li>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Brand C</span>
-                            <input type="radio" name="brand" value="Brand C" className="radio" />
-                        </label>
-                    </li>
-                </ul>
-            </div>
+        <Scrollbars
+            autoHeight
+            autoHeightMin={0}
+            autoHeightMax={450}
+            style={{ width: 220 }}>
+            
+            <div className="form-control space-y-4  pr-4">
+                {/* Brand Name Filter */}
+                <div>
+                    <h2 className="text-lg font-semibold">Brand Name</h2>
+                    <ul>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize ">Samsung</span>
+                                <input type="radio" name="brand" value="Samsung" className="radio max-lg:radio-error " />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize ">Apple</span>
+                                <input type="radio" name="brand" value="Apple" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Sony</span>
+                                <input type="radio" name="brand" value="Sony" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">one plus</span>
+                                <input type="radio" name="brand" value="lg" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                    </ul>
+                </div>
 
-            {/* Category Name Filter */}
-            <div>
-                <h2 className="text-lg font-semibold">Category Name</h2>
-                <ul>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Electronics</span>
-                            <input type="radio" name="category" value="Electronics" className="radio" />
-                        </label>
-                    </li>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Furniture</span>
-                            <input type="radio" name="category" value="Furniture" className="radio" />
-                        </label>
-                    </li>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Clothing</span>
-                            <input type="radio" name="category" value="Clothing" className="radio" />
-                        </label>
-                    </li>
-                </ul>
-            </div>
+                {/* Category Name Filter */}
+                <div>
+                    <h2 className="text-lg font-semibold">Category Name</h2>
+                    <ul>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Smartphones</span>
+                                <input type="radio" name="category" value="Smartphones" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Laptops</span>
+                                <input type="radio" name="category" value="Laptops" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Televisions</span>
+                                <input type="radio" name="category" value="Televisions" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Headphones</span>
+                                <input type="radio" name="category" value="Headphones" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Smartwatches</span>
+                                <input type="radio" name="category" value="Smartwatches" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                    </ul>
+                </div>
 
-            {/* Price Range Filter */}
-            <div>
-                <h2 className="text-lg font-semibold">Price Range</h2>
-                <ul>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Under $50</span>
-                            <input type="radio" name="price" value="Under $50" className="radio" />
-                        </label>
-                    </li>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">$50 - $100</span>
-                            <input type="radio" name="price" value="$50 - $100" className="radio" />
-                        </label>
-                    </li>
-                    <li>
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Above $100</span>
-                            <input type="radio" name="price" value="Above $100" className="radio" />
-                        </label>
-                    </li>
-                </ul>
+                {/* Price Range Filter */}
+                <div>
+                    <h2 className="text-lg font-semibold">Price Range</h2>
+                    <ul>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Under $50</span>
+                                <input type="radio" name="price" value="Under $50" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">$50 - $100</span>
+                                <input type="radio" name="price" value="$50 - $100" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                        <li>
+                            <label className="label cursor-pointer">
+                                <span className="label-text max-lg:text-white capitalize">Above $100</span>
+                                <input type="radio" name="price" value="Above $100" className="radio max-lg:radio-error" />
+                            </label>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </Scrollbars>
     );
 };
 
