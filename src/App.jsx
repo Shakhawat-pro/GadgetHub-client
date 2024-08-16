@@ -10,7 +10,7 @@ function App() {
   return (
     <div className=' mx-auto '>
       <Sidebar></Sidebar>
-      {location.pathname === ('/login' || '/register') ? '' :  <Footer></Footer>}
+      {location.pathname === '/login' || location.pathname === '/register' ? '' :  <Footer></Footer>}
     </div>
   )
 }

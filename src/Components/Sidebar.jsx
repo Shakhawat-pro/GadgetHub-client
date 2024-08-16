@@ -8,13 +8,13 @@ const Sidebar = () => {
         <div className="drawer lg:drawer-open ">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content ">
-                {location.pathname === ('/login' || '/register') ? '' : <Navbar></Navbar>}
+                {location.pathname === '/login' || location.pathname === '/register' ? '' : <Navbar></Navbar>}
 
                 <div className="max-w-screen-xl w-11/12 mx-auto">
                     <Outlet></Outlet>
                 </div>
             </div>
-            {location.pathname === ('/login' || '/register') ? '' :
+            {location.pathname === '/login' || location.pathname === '/register' ? '' :
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
                     <div className="px-12 text-xl space-y-4 w-80 min-h-full border-r-2  max-lg:bg-black max-lg:text-white ">

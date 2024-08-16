@@ -8,12 +8,13 @@ import {
 import './index.css'
 import Login from './Components/Login.jsx';
 import Register from './Components/Register.jsx';
+import AuthProvider from './Context/AuthProvider.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    children:[
+    children: [
       {
         path: "login",
         element: <Login></Login>
@@ -28,6 +29,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>,
 )
