@@ -14,7 +14,7 @@ const Filter = () => {
     };
 
     // Handle form submission
-    const handleSubmit = (e) => {
+    const HandleClear = (e) => {
         setFilters({
             brand: '',
             category: '',
@@ -196,7 +196,7 @@ const Filter = () => {
                     </div>
                 </div>
             </Scrollbars>
-            <button onClick={handleSubmit} className="btn bg-black text-white mt-4">Clear Filters</button>
+            <button onClick={HandleClear} className="btn bg-black text-white mt-4">Clear Filters</button>
         </form>
     );
 };
