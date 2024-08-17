@@ -47,8 +47,8 @@ const Products = () => {
         <div className="my-10">
             <div className="flex justify-between items-end">
                 <div>
-                    <h1 className="text-2xl font-semibold">Hi, Ratul!</h1>
-                    <h1 className="">Find Your Favorite Products</h1>
+                    <h1 className="text-2xl font-semibold">Hi there,</h1>
+                    <h1 className="">Find your favorite products!</h1>
                 </div>
                 <div>
                     <select
