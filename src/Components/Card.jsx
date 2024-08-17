@@ -1,12 +1,17 @@
 import { Rating } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css'
+import { useNavigate } from 'react-router-dom';
 const Card = ({ product }) => {
-    const { name, image, description, price, category, brand, ratings, createdAt } = product
-    // console.log(ratings);
+    const {_id, name, image, description, price, category, brand, ratings, createdAt } = product
+    const navigate = useNavigate()
+
+    const handleClick = () => {
+        navigate(`/productDetail/${_id}`)
+    }
     
 
     return (
-        <div className="card bg-base-100 w-80 shadow-2xl mx-auto transform transition-transform hover:scale-105 cursor-pointer hover:border-2 border-black">
+        <div onClick={handleClick} className="card bg-base-100 w-80 shadow-2xl mx-auto transform transition-transform hover:scale-105 cursor-pointer hover:border-2 border-black">
             <figure className="px-10 pt-10 h-2/3 ">
                 <img src={image} alt="Shoes" className='rounded-xl object-contain h-full w-full' />
             </figure>

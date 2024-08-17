@@ -16,6 +16,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import ProductDetail from './Components/ProductDetail.jsx';
 
 
 
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
       {
         path: "register",
         element: <Register></Register>
+      },
+      {
+        path: "productDetail/:id",
+        element: <ProductDetail></ProductDetail>,
+        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)        
       }
     ]
   },
