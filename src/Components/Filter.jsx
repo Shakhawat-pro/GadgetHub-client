@@ -15,12 +15,16 @@ const Filter = () => {
 
     // Handle form submission
     const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Selected Filters:', filters);
+        setFilters({
+            brand: '',
+            category: '',
+            priceMin: '',
+            priceMax: ''
+        })
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form >
             <Scrollbars
                 autoHeight
                 autoHeightMin={0}
@@ -192,7 +196,7 @@ const Filter = () => {
                     </div>
                 </div>
             </Scrollbars>
-            <button type="submit" className="btn bg-black text-white mt-4">Apply Filters</button>
+            <button onClick={handleSubmit} className="btn bg-black text-white mt-4">Clear Filters</button>
         </form>
     );
 };
