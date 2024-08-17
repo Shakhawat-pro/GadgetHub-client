@@ -22,7 +22,7 @@ const Products = () => {
                 page: currentPage,
                 limit: itemsPerPage
             });
-            const res = await axios.get(`http://localhost:5000/product?${params}`);
+            const res = await axios.get(`https://gadget-hub-backend-nine.vercel.app/product?${params}`);
             return res.data;
         },
         keepPreviousData: true,

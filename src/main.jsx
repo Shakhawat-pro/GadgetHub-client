@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       {
         path: "productDetail/:id",
         element: <ProductDetail></ProductDetail>,
-        loader: ({params}) => fetch(`http://localhost:5000/product/${params.id}`)        
+        loader: ({params}) => fetch(`https://gadget-hub-backend-nine.vercel.app/product/${params.id}`)        
       }
     ]
   },
